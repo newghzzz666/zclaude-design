@@ -40,7 +40,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SKILL_ROOT = path.resolve(__dirname, '..');
-const TTS_SCRIPT = path.join(__dirname, 'tts-doubao.mjs');
+const TTS_SCRIPT = path.join(__dirname, 'tts-edge.mjs');
 
 function parseArgs(argv) {
   const args = {};
